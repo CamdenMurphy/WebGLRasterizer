@@ -11,7 +11,12 @@
         <!-- Create the canvas element to draw to -->
         <canvas id="webglCanvas" width="640" height="480"></canvas>
         <!-- Load matrix library and scripts -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"
+        crossorigin="anonymous"
+        defer>
+        </script>
         <script src="webgl-rasterizer.js"></script>
     </body>
 </html>
+
+<!-- mat4.rotate() to rotate *for later use -->
